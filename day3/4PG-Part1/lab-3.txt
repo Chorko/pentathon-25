@@ -1,0 +1,69 @@
+7 Point guide to secure crypto coding
+==================================================
+
+		LAB 3
+
+Title : Generating Pseudo Random Numbers
+
+Task Type : Pair task
+
+Time : 10 mins
+
+Task :
+
+	1. copy the below program in a file pran.c 
+
+	----------------------------------------------
+
+	#include <stdio.h>
+	#include <stdlib.h>
+	#include <time.h>
+
+	int main () {
+	   int i, n, range;
+	   time_t t;
+		
+
+	   // Changable parameters
+	   n = 10;
+	   unsigned int seed = 51732;
+	   range = 50;
+	   /* Intializes random number generator using a seed*/
+
+	   srand(seed);
+
+
+	   /* Intializes random number generator using time-stamp as a seed*/
+	   //srand((unsigned) time(&t));
+
+	   /* Print n random numbers between 0 to 50 */
+	   for( i = 0 ; i < n ; i++ ) {
+	      printf("%d\n", rand() % range);
+	   }
+
+	   return(0);
+	}
+
+
+	----------------------------------------------
+
+	2. compile the file
+		$:> gcc -o pran pran.c
+	3. execute the program - pran
+		$:> ./pran
+
+	4. Execute the program pran twice or thrice with the same seed.
+
+	5. Reset different value of seed in code at line no () and check the output
+
+	6. Decide a common seed with your partner and check the output
+
+	
+Post Task :
+	
+	Share your observation with instructor. Observe if the output
+	of the program is pesudo random numbers generated are same at both the ends.
+
+
+
+

@@ -1,0 +1,35 @@
+7 Point guide to secure crypto coding
+==================================================
+
+		LAB 5
+
+
+Title : Testing Randomness of  Numbers
+
+Task Type : Individual task
+
+Time : 10 mins
+
+Task :
+
+        1. Generate 1000 random numbers and store to a file entropy.txt
+                openssl rand -out entropy.txt -hex 1000
+
+
+        2. Install "dieharder"  utility.
+		apt-get install dieharder
+
+        3. check out the options and tests supported by dieharder suite
+
+        4. Test the random ness using dieharder tests
+
+                dieharder -d 0 < entropy.txt
+
+        5. You can use rngtest utility as well
+
+
+Post Task :
+
+        Report your findings to Instructor
+	
+

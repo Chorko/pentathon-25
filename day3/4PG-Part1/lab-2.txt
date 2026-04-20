@@ -1,0 +1,55 @@
+7 Point guide to secure crypto coding
+==================================================
+
+		LAB 2
+
+Title : Generating Secure Random Numbers
+
+Task Type : Individual task
+
+Time : 10 mins
+
+Task :
+
+	1. copy the below program in a file urandom.c 
+	
+
+	----------------------------------------------
+	#include <stdio.h>
+
+	int main()
+	{
+		unsigned int randval;
+		FILE *f;
+		int i = 0;
+
+		f = fopen("/dev/urandom", "r");
+
+		for(; i < 10; i++)
+		{
+			fread(&randval, sizeof(randval), 1, f);
+			printf("%u\n", (randval% 50));
+		}
+		fclose(f);
+		return 0;
+	}
+
+
+	----------------------------------------------
+
+	2. compile the file
+		$:> gcc urandom.c -o urandom
+	3. execute the program - urandom
+		$:> ./urandom
+
+	4. Execute the program urandom twice or thrice
+
+	
+Post Task :
+	
+	Share your observation with others/ instructor. Observe if the output
+	of the program is random all the time or not.
+
+
+
+

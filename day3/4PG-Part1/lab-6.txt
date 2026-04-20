@@ -1,0 +1,42 @@
+7 Point guide to secure crypto coding
+==================================================
+
+		LAB 6
+
+Title : Check default value of crypto premitives 
+
+Task Type : Individual task
+
+Time : 5 mins
+
+Task :
+
+	1. Go to Linux/Mac/windows command prompt
+	2. Generate RSA key using openssl
+
+		$:> openssl genrsa -out key.rsa
+
+	3. check the contents of key.rsa and note the size of RSA key generated
+
+		$:> cat key.rsa
+		$:> openssl rsa -in key.rsa
+
+	4. Change the bit size or RSA key to 2048, and then view the contents, file size
+
+		$:> openssl genrsa -out key.rsa 2048
+		$:> cat key.rsa
+		$:> openssl rsa -in key.rsa
+
+	
+	5. Encrypt the generated RSA key using AES-128, and view the contents of the file again
+
+		$:> openssl genrsa -out	key.rsa -aes128	
+		
+
+	
+Post Task :
+	
+	1. Note that default bit-size is different on different machines even for same version of Openssl.
+	2. While coding always specify the bit-size.
+	3. Always ENCRYPT the private keys right at the time of generation	
+

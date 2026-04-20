@@ -1,0 +1,46 @@
+7 Point guide to secure crypto coding
+==================================================
+
+		LAB 1
+
+Title : Generating Random Numbers
+
+Task Type : Individual task
+
+Time : 10 mins
+
+Task :
+
+	1. copy the below program in a file random.c 
+	
+
+	----------------------------------------------
+		#include <stdio.h>
+
+		int main()
+		{
+		    int i;
+		    for (i=0; i<10; i++) printf("%u\n", rand());
+		    return 0;
+		}
+
+
+
+	----------------------------------------------
+
+	2. compile the file
+		$:> gcc random.c   -o  random
+	3. execute the program - random
+		$:> ./random
+
+	4. Execute the program random twice or thrice
+
+	
+Post Task :
+	
+	Share your observation with others/instructor. Observe if the output
+	of the program is random all the time or not.
+
+
+
+
