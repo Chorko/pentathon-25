@@ -1,10 +1,10 @@
-# Pentathon 2025
+# Pen**** 2025
 
-**Pentathon 2025** is a premier cybersecurity hackathon and technical bootcamp jointly organized by the **All India Council for Technical Education (AICTE)**, the **National Critical Information Infrastructure Protection Centre (NCIIPC)**, and the **Ministry of Education (MoE)**, Government of India.
+**Pen**** 2025** is a premier cybersecurity hackathon and technical bootcamp jointly organized by the **All India Council for Technical Education (AICTE)**, the **National Critical Information Infrastructure Protection Centre (NCIIPC)**, and the **Ministry of Education (MoE)**, Government of India.
 
 ## Overview
 
-The objective of Pentathon '25 is to identify and nurture top cybersecurity talent across the nation to secure critical infrastructure and digital assets. It aims to provide a rigorous, hands-on platform where participants can test and elevate their penetration testing, vulnerability assessment, and threat mitigation skills.
+The objective of Pen**** '25 is to identify and nurture top cybersecurity talent across the nation to secure critical infrastructure and digital assets. It aims to provide a rigorous, hands-on platform where participants can test and elevate their penetration testing, vulnerability assessment, and threat mitigation skills.
 
 ### Key Organizers
 - **AICTE (All India Council for Technical Education):** Driving the technical education mandate and ensuring broad participation across engineering and technical institutions.
@@ -21,7 +21,7 @@ The bootcamp and subsequent competition are structured to simulate real-world cy
 
 ## Repository Contents
 
-This repository serves as the central hub for the Pentathon '25 bootcamp materials, tracking progress across multiple days:
+This repository serves as the central hub for the Pen**** '25 bootcamp materials, tracking progress across multiple days:
 - `day1/`: Introduction, fundamentals of penetration testing, and basic enumeration.
 - `day2/`: Advanced exploitation techniques, privilege escalation, and network pivoting.
 - `day3/`: Post-exploitation, reporting, and defense-in-depth strategies.
